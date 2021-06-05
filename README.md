@@ -1,3 +1,9 @@
 # ermmy.github.io
-My personal website
-Hello how are you.
+
+<html>
+<body>
+	<h1> Hello Ermias </h1>
+	<h2 style="red"> HELLO ERMIAS </h2>
+</body>
+
+</html>
