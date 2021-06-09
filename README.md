@@ -16,9 +16,15 @@ body {
 
 /* Header/logo Title */
 .header {
-  padding: 400px;
-  height: 100%;
-  width: 100%;
+  position:fixed;
+    padding:0;
+    margin:0;
+
+    top:0;
+    left:0;
+
+    width: 100%;
+    height: 100%;
   background: linear-gradient(rgb(165, 102, 180), rgb(109, 37, 144), blue);
   color: white;
   
