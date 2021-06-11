@@ -8,7 +8,10 @@
 <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&family=Rock+Salt&display=swap" rel="stylesheet">
-  <style>
+
+</head>
+<body>
+    <style>
     body { 
     background: white;
     color: black;
@@ -113,7 +116,7 @@
     left: 1400px;  
     bottom: 830px;
   }
-
+  
   .firstmessage{
     font-family: "Nothing You Could Do";
     text-align: center;
@@ -121,9 +124,7 @@
     bottom: 700px;
   }
   </style>
-</head>
-<body>
-
+  
   <div class="header">
     <h1>WELCOME</h1>
   </div>
