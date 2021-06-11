@@ -26,7 +26,7 @@
       color: white;
       width: 100vw;
       position: relative;
-      text-decoration: none;
+      text-decoration: none !important;
   }
   
   /* Style the body */
@@ -128,7 +128,7 @@
   </style>
   
   <div class="header">
-    <h1>WOGARI</h1>
+    <h1>TOdayy</h1>
   </div>
 
   <ul class= "hori-tab">
