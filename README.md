@@ -25,8 +25,7 @@
       background: linear-gradient(to right, black , rgb(105, 14, 190));;
       color: white;
       width: 100vw;
-      position: relative;
-      text-decoration: none !important;
+      text-decoration: none;
   }
   
   /* Style the body */
@@ -128,7 +127,7 @@
   </style>
   
   <div class="header">
-    <h1>TOdayy</h1>
+    <h1>hlello</h1>
   </div>
 
   <ul class= "hori-tab">
