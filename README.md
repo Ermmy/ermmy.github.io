@@ -128,7 +128,7 @@
   </style>
   
   <div class="header">
-    <h1>WELCOME</h1>
+    <h1>ERMIAS</h1>
   </div>
 
   <ul class= "hori-tab">
