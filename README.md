@@ -25,6 +25,8 @@
       background: linear-gradient(to right, black , rgb(105, 14, 190));;
       color: white;
       width: 100%;
+      position: relative;
+       
   }
   
   /* Style the body */
