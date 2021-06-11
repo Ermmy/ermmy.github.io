@@ -8,7 +8,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&family=Rock+Salt&display=swap" rel="stylesheet">
-
+@import "{{ site.theme }}";
 </head>
 <body>
     <style>
@@ -127,7 +127,7 @@
   </style>
   
   <div class="header">
-    <h1>hlello</h1>
+    <h1>ErmiasW</h1>
   </div>
 
   <ul class= "hori-tab">
