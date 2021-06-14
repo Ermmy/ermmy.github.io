@@ -11,178 +11,161 @@
 @import "{{ site.theme }}";
 </head>
 <body>
-    <style>
-    body { 
-    background: white;
-    color: black;
-    text-align: center;
-    font-family: "Comic Sans MS";
-    font-size: 30px;
-  }
+<style>
+    @import url(https://fonts.googleapis.com/css?family=Signika+Negative:400,700);
 
-  .header{
-      padding: 50px;
-      background: linear-gradient(to right, black , rgb(105, 14, 190));;
-      color: white;
-      width: 100vw;
-      text-decoration: none;
-  }
-  
-  /* Style the body */
-  .pic {
-    height: 100px;
-    width: 100px;
-  }
+html, body {
+  height:100%;
+  font-family: 'Signika Negative', sans-serif;
+  font-size: 25px;
+}
 
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    margin-bottom: 100px;
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 20px;
-  }
-  
-  li a:hover {
-    background-color: #111;
-  }
+html {
+  background: url('https://2.bp.blogspot.com/-SUMDIuZ7m48/TeWj1YDWcNI/AAAAAAAABhg/9fjPiDZHwms/s1600/winter.JPG') fixed;
+  background-size: 100%;
+}
 
-  .picture1{
-    font-family: "Rock Salt";
-    font-size: 20px;
-    text-align: center;
-    margin-bottom: 100px;
-    padding: 300px;
-  }
+div {
+  overflow: hidden;
+}
 
-  .firstinfo{
-    background: black;
-    padding-bottom: 300px;
-    display: block;
-    color: white;
-    text-align: left;
-  }
+a {
+  color: #322bff;
+  text-decoration: underline;
+  transition: 500ms;
+}
+a:hover {
+  color: #26a1ff;
+}
 
-  .firstcolor{
-    background: linear-gradient(to right, black , rgb(105, 14, 190));;
-    height: 300px;
-    width: 300px;
-    border: 5px solid white;
-    position: relative;
-    left: 70px;
-    top: 100px;
-  }
+p {
+  padding: 0 5%;
+}
 
-  .secondcolor{
-    background: linear-gradient(to right, black , rgb(189, 28, 17));;
-    height: 300px;
-    width: 300px;
-    border: 5px solid white;
-    position: relative;
-    left: 510px;
-    bottom: 210px;
+img {
+  box-shadow: 0px 0px 4px #000;
+}
 
-  }
+#header {
+  background: rgba(255, 255, 255, .5);
+  padding: 1%;
+  overflow: hidden;
+  height: 55px;
+}
+#header img {
+  float: left;
+  box-shadow: none;
+}
+#header ul {
+  list-style: none;
+  float: left;
+  padding-left: 10px;
+  margin-top: 15px;
+}
+#header ul li {
+  float: left;
+  margin-left: 10px;
+  font-size: 20px;
+}
 
-  .thirdcolor{
-    background: linear-gradient(to right, rgb(12, 70, 194) , rgb(58, 167, 218));;
-    height: 300px;
-    width: 300px;
-    border: 5px solid white;
-    position: relative;
-    left: 950px;
-    bottom: 520px;  
+.fullscreen {
+  height: 95%;
+  position: relative;
+}
+.fullscreen .header {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  color: #fff;
+  text-shadow: 0px 0px 2px #000;
+}
 
-  }
+.white {
+  background: #eeeeec;
+  padding: 0 5%;
+}
+.nobg {
+  background: none;
+  padding: 0 5%;
+  color: #fff;
+  text-shadow: 0px 0px 4px #000;
+}
+.semitrans {
+  background: rgba(255, 255, 255, .5);
+  padding: 0 5%;
+}
+.dark {
+  color: #eeeeec;
+  background: #010105;
+  padding: 0 5%;
+}
 
-  .fourthcolor{
-    background: linear-gradient(to right, rgb(27, 211, 243) , rgb(140, 236, 136));;
-    height: 300px;
-    width: 300px;
-    border: 5px solid white;
-    position: relative;
-    left: 1400px;  
-    bottom: 830px;
-  }
-  
-  .firstmessage{
-    font-family: "Nothing You Could Do";
-    text-align: center;
-    position: relative;
-    bottom: 700px;
-  }
-  </style>
-  
+.nopadding {
+  padding: 0;
+}
+
+.floatleft {
+  float: left;
+  margin: 2%;
+}
+.floatright {
+  float: right;
+  margin 2%;
+}
+
+.more {
+  text-align: center;
+  font-size: 17px;
+}
+.more a {
+  color: #aaa;
+  text-decoration: none;
+  cursor: pointer;
+}
+.more a:hover {
+  color: #777;
+}
+    </style>
+<div class="fullscreen nopadding">
+  <div id="header">
+    <img src="https://blog.codepen.io/wp-content/uploads/2012/06/Button-Black-Small.png" width="50px" />
+    <ul>
+      <li>Home</li>
+      <li>About</li>
+    </ul>
+  </div>
   <div class="header">
-    <h1>ErmiasW</h1>
+    <h1>Lorem Ipsum</h1>
   </div>
+</div>
 
-  <ul class= "hori-tab">
-    <li><a>Home</a></li>
-    <li><a class = "tabspace">Section 1</a></li>
-    <li><a class = "tabspace">Secion 2</a></li>
-    <li><a class = "tabspace">Section 3</a></li>
-  </ul>
+<div class="white nopadding more">
+  <a id="more">&#x25BC; More &#x25BC;</a>
+</div>
 
-  <div class="picture1">
-    <p>No matter that the excuse is, what a person does at the end is what he planned to do all along...</p>
-    <p>-Cus D'amato</p>
-  </div>
-  
-  <div class="firstinfo">
-    <p></p>
+<div class="white">
+  <a id="test"></a>
+  <h1>Dolor Sit Amet</h1>
+  <img class="floatleft" src="http://www.2020site.org/trees/images/PineNeedles.jpg" />
+  <p><a href="">Lorem ipsum</a> dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur. Donec ut libero sed arcu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut gravida lorem. Ut turpis felis, pulvinar a semper sed, adipiscing id dolor. Pellentesque auctor nisi id magna consequat sagittis. Curabitur dapibus enim sit amet elit pharetra tincidunt feugiat nisl imperdiet. Ut convallis libero in urna ultrices accumsan. Donec sed odio eros. Donec viverra mi quis quam pulvinar at malesuada arcu rhoncus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In rutrum accumsan ultricies. Mauris vitae nisi at sem facilisis semper ac in est.</p>
+  <img class="floatright" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Ilex-aquifolium_%28Europaeische_Stechpalme-1.jpg/220px-Ilex-aquifolium_%28Europaeische_Stechpalme-1.jpg" />
+  <p>Suspendisse lectus leo, consectetur in tempor sit amet, placerat quis neque. Etiam luctus porttitor lorem, sed suscipit est rutrum non. Curabitur lobortis nisl a enim congue semper. Aenean commodo ultrices imperdiet. Vestibulum ut justo vel sapien venenatis tincidunt. Phasellus eget dolor sit amet ipsum dapibus condimentum vitae quis lectus. Aliquam ut massa in turpis dapibus convallis. Praesent elit lacus, vestibulum at malesuada et, ornare et est. Ut augue nunc, sodales ut euismod non, adipiscing vitae orci. Mauris ut placerat justo. Mauris in ultricies enim. Quisque nec est eleifend nulla ultrices egestas quis ut quam. Donec sollicitudin lectus a mauris pulvinar id aliquam urna cursus. Cras quis ligula sem, vel elementum mi. Phasellus non ullamcorper urna.</p>
+</div>
 
-    <div class="firstcolor">  
-    </div>
-  
-    <div class="secondcolor">  
-    </div>
+<div class="semitrans">
+  <h1>Et Cetera...</h1>
+  <p>Vivamus fermentum semper porta. Nunc diam velit, adipiscing ut tristique vitae, sagittis vel odio. Maecenas convallis ullamcorper ultricies. Curabitur ornare, ligula semper consectetur sagittis, nisi diam iaculis velit, id fringilla sem nunc vel mi.</p>
+  <h2>Sub est.</h2>
+  <p>Nam dictum, odio nec pretium volutpat, arcu ante placerat erat, non tristique elit urna et turpis. Quisque mi metus, ornare sit amet fermentum et, tincidunt et orci. Fusce eget orci a orci congue vestibulum. Ut dolor diam, elementum et vestibulum eu, porttitor vel elit. Curabitur venenatis pulvinar tellus gravida ornare.</p>
+  <h2>Sed non.</h2>
+  <p>Sed et erat faucibus nunc euismod ultricies ut id justo. Nullam cursus suscipit nisi, et ultrices justo sodales nec. Fusce venenatis facilisis lectus ac semper. Aliquam at massa ipsum. Quisque bibendum purus convallis nulla ultrices ultricies. Nullam aliquam, mi eu aliquam tincidunt, purus velit laoreet tortor, viverra pretium nisi quam vitae mi. Fusce vel volutpat elit. Nam sagittis nisi dui.</p>
+</div>
 
-    <div class="thirdcolor">  
-    </div>
-
-    <div class="fourthcolor">  
-    </div>
-
-    <div class="firstmessage">
-      <p>If you go beyond the clouds, you will get endless sunshine.</p>
-      <p>-Mwanandeke Kindembo</p>
-    </div>
-
-  </div>
-
-
-
-
-
-
-
-
-
-
-
-
- <!--
-    <div class="pic">
-    <img src="ermmypic.jpg"  width="200" height="200"/>
-  </div>
- -->
-
-
-  
-
-</body>
+<div class="dark">
+  <p>This pen was made by <a href="https://codepen.io/flyingfisch">flyingfisch</a>. Check out my <a href="http://toppagedesign.com">website</a>!</p>
+</div>
+    </body>
+    
+    
 </html>
